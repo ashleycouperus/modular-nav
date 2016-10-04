@@ -5,6 +5,9 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
+  font-family: sans-serif;
+  background-color: #e2e2e2;
+
   box-sizing: border-box;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -17,5 +20,14 @@ html {
 }
 
 body {
-  margin: 0
+  margin: 0;
+}
+
+header {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  display: inline-block;
 }
